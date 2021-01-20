@@ -1,0 +1,14 @@
+{
+    "pages": [
+        "pages/bill/bill"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Mango",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "entryPagePath": "pages/bill/bill"
+}
