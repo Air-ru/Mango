@@ -1,6 +1,7 @@
 {
     "pages": [
-        "pages/bill/bill"
+        "pages/bill/bill",
+        "pages/login/login"
     ],
     "window": {
         "backgroundTextStyle": "light",

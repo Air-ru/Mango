@@ -1,7 +1,4 @@
-// pages/bill/bill.js
-import {
-    wxRequest
-} from '../../utils/util'
+// pages/login.js
 Page({
 
     /**
@@ -15,31 +12,7 @@ Page({
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
-        wxRequest({
-            url: '/user',
-            method: 'POST',
-            dataType: 'json',
-            data: {
-                userId: 1
-            }
-        }).then(res => {
-            // console.log(res)
-        }).catch(err => {
-            // console.log(err)
-        })
-        // wxRequest({
-        //     url: '/addShippingList',
-        //     method: 'POST',
-        //     dataType: 'json',
-        //     data: {
-        //         user_id: '1'
 
-        //     }
-        // }).then(res => {
-        //     console.log(res)
-        // }).catch(err => {
-        //     console.log(err)
-        // })
     },
 
     /**
