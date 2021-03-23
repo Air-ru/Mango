@@ -1,6 +1,6 @@
 <template>
 	<view class="container">
-		view
+		账单
 	</view>
 </template>
 
