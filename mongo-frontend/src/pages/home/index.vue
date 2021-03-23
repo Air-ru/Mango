@@ -1,8 +1,6 @@
 <template>
 	<view class="container">
-		<view>
-			<text class="title">{{title}}</text>
-		</view>
+		view
 	</view>
 </template>
 
@@ -10,7 +8,6 @@
 	export default {
 		data() {
 			return {
-			
 			}
 		},
 		onLoad() {

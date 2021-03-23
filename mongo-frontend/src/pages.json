@@ -3,15 +3,14 @@
 		{
 			"path": "pages/home/index",
 			"style": {
-				"navigationBarTitleText": "🥭",
-				"backgroundColor": "#000"
+				"navigationBarTitleText": "Mongo Bill"
 			}
 		}
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "🥭",
-		"navigationBarBackgroundColor": "#f1f3f5",
-		"backgroundColor": "#f1f3f5"
+		"navigationBarTitleText": "Mongo Bill",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#F8F8F8"
 	}
 }
