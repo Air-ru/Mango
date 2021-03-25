@@ -1,12 +1,15 @@
 <template>
     <view class="container">
-        <!-- <uni-rate :size="18" :value="5" /> -->
+      <uni-badge text="ninin" type="success"></uni-badge>
     </view>
 </template>
 
 <script>
+import { uniBadge } from "@dcloudio/uni-ui";
 
 export default {
+    components: { uniBadge },
+
     data() {
         return {};
     },
