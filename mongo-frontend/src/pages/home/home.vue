@@ -1,20 +1,27 @@
 <template>
     <view class="container">
-      <uni-badge text="ninin" type="success"></uni-badge>
+        <view class="header-filter">
+            <view class="type-filter" @click="clickType">点击</view>
+            <view class="time-filter"></view>
+        </view>
+        <uni-popup ref="popup" type="bottom">底部弹出 Popup</uni-popup>
     </view>
 </template>
 
 <script>
-import { uniBadge } from "@dcloudio/uni-ui";
-
 export default {
-    components: { uniBadge },
-
     data() {
-        return {};
+        return {
+            typeLabels: [{}],
+        };
     },
     onLoad() {},
-    methods: {},
+    methods: {
+        clickType: function () {
+            console.log(1);
+            this.$refs.popup.open();
+        },
+    },
 };
 </script>
 
